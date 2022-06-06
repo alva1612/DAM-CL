@@ -1,7 +1,7 @@
 package com.example.pizzadelivery.entidades;
 
 public class Pizza {
-    private Integer id;
+    private String id;
     private String nombre;
     private Double precio;
     private int picture;
@@ -9,18 +9,18 @@ public class Pizza {
     public Pizza() {
     }
 
-    public Pizza(Integer id, String nombre, Double precio, int picture) {
+    public Pizza(String id, String nombre, Double precio, int picture) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
         this.picture = picture;
     }
 
-    public Integer getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 

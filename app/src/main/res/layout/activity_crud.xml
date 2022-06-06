@@ -17,28 +17,36 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/btnRegistrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_login_button"
-            android:text="@string/text_btnRegistrarPizza"/>
+            android:text="@string/text_btnRegistrarPizza"
+            android:onClick="onClick"/>
 
         <Button
+            android:id="@+id/btnActualizar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_login_button"
-            android:text="@string/text_btnActualizar"/>
+            android:text="@string/text_btnActualizar"
+            android:onClick="onClick"/>
 
         <Button
+            android:id="@+id/btnEliminar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_login_button"
-            android:text="@string/text_btnEliminar"/>
+            android:text="@string/text_btnEliminar"
+            android:onClick="onClick"/>
 
         <Button
+            android:id="@+id/btnConsultar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/margin_login_button"
-            android:text="@string/text_btnConsultar"/>
+            android:text="@string/text_btnConsultar"
+            android:onClick="onClick"/>
 
     </LinearLayout>
 </LinearLayout>

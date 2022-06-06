@@ -6,6 +6,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
+import com.example.pizzadelivery.utilidades.Utilidades;
+
 public class ConexionSQLiteHelper extends SQLiteOpenHelper {
 
     public ConexionSQLiteHelper(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
@@ -13,12 +15,13 @@ public class ConexionSQLiteHelper extends SQLiteOpenHelper {
     }
 
     @Override
-    public void onCreate(SQLiteDatabase sqLiteDatabase) {
-
+    public void onCreate(SQLiteDatabase db) {
+        db.execSQL(Utilidades.CREAR_TABLA_PIZZA);
     }
 
     @Override
-    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
-
+    public void onUpgrade(SQLiteDatabase db, int versionAntigua, int versionNueva) {
+        db.execSQL("DROP TABLE IF EXISTS pizzas");
+        onCreate(db);
     }
 }

@@ -109,4 +109,9 @@
     <string name="text_btnActualizar">Actualizar Pizza</string>
     <string name="text_btnEliminar">Eliminar Pizza</string>
     <string name="text_btnConsultar">Consultar lista de pizzas</string>
+    <string name="agregar_pizza">Agregar Pizza</string>
+    <string name="nombre_de_pizza">Nombre de Pizza</string>
+    <string name="precio">Precio</string>
+    <string name="seleccionar_imagen">Seleccionar Imagen</string>
+    <string name="identificador">Identificador</string>
 </resources>
