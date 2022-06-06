@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pizza_nombre">Nombre Pizza</string>
+    <string name="text_btnRegistrarPizza">Registrar Pizza</string>
+    <string name="text_btnActualizar">Actualizar Pizza</string>
+    <string name="text_btnConsultar">Consultar lista de pizzas</string>
+</resources>

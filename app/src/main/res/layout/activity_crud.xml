@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CrudActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <include layout="@layout/actionbar_toolbar"/>
+    <LinearLayout
+        android:layout_marginTop="@dimen/margin_login_button"
+        android:padding="@dimen/padding_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_login_button"
+            android:text="@string/text_btnRegistrarPizza"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_login_button"
+            android:text="@string/text_btnActualizar"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_login_button"
+            android:text="@string/text_btnEliminar"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_login_button"
+            android:text="@string/text_btnConsultar"/>
+
+    </LinearLayout>
+</LinearLayout>

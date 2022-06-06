@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_login_logo">150dp</dimen>
+    <dimen name="height_login_logo">250dp</dimen>
+    <dimen name="padding_login_form">30dp</dimen>
+    <dimen name="margin_login_button">10dp</dimen>
+    <dimen name="margin_login_logo">10dp</dimen>
+    <dimen name="textsize_donthaveaccount">16sp</dimen>
+    <dimen name="padding_horizontal_login">32dp</dimen>
+    <dimen name="editText_margin_createAccount">10dp</dimen>
+    <dimen name="editText_textSize_login">20sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="height_cardview">200dp</dimen>
+    <dimen name="cornerradius_cardview">4dp</dimen>
+    <dimen name="textSize_card">25sp</dimen>
+    <dimen name="desde_textsize">15sp</dimen>
+    <dimen name="precio_textsize">15sp</dimen>
+    <dimen name="preciocard_marginleft">5dp</dimen>
+    <dimen name="precionumber_textsize">20sp</dimen>
+    <dimen name="margin_recylerView">40dp</dimen>
+    <dimen name="cornerradius_login">10dp</dimen>
+</resources>
