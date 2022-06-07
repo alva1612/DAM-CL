@@ -21,4 +21,5 @@
     <dimen name="precionumber_textsize">20sp</dimen>
     <dimen name="margin_recylerView">40dp</dimen>
     <dimen name="cornerradius_login">10dp</dimen>
+    <dimen name="layout_margin_left">10dp</dimen>
 </resources>

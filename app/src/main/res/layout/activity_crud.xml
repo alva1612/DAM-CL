@@ -8,7 +8,6 @@
     android:orientation="vertical"
     android:background="@color/white">
 
-    <include layout="@layout/actionbar_toolbar"/>
     <LinearLayout
         android:layout_marginTop="@dimen/margin_login_button"
         android:padding="@dimen/padding_login_form"

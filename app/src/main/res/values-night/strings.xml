@@ -9,4 +9,8 @@
     <string name="precio">Precio</string>
     <string name="seleccionar_imagen">Seleccionar Imagen</string>
     <string name="identificador">Identificador</string>
+    <string name="id_de_pizza">Id de pizza</string>
+    <string name="btnConsultar_text">Consultar</string>
+    <string name="btnActualizar">Actualizar</string>
+    <string name="btnEliminar">Eliminar</string>
 </resources>

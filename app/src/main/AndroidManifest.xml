@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PizzaDelivery">
         <activity
-            android:name=".EliminarPizzaActivity"
+            android:name=".view.EliminarPizzaActivity"
             android:exported="false" />
         <activity
-            android:name=".ActualizarPizza"
+            android:name=".view.ActualizarPizzaActivity"
             android:exported="false" />
         <activity
             android:name=".view.RegistrarPizzaActivity"
