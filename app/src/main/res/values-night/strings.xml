@@ -2,7 +2,7 @@
 <resources>
     <string name="pizza_nombre">Nombre Pizza</string>
     <string name="text_btnRegistrarPizza">Registrar Pizza</string>
-    <string name="text_btnActualizar">Actualizar Pizza</string>
+    <string name="text_btnActualizar">Actualizar y Eliminar Pizza</string>
     <string name="text_btnConsultar">Consultar lista de pizzas</string>
     <string name="agregar_pizza">Agregar Pizza</string>
     <string name="nombre_de_pizza">Nombre de Pizza</string>

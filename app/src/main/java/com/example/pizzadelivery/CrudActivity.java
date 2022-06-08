@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.pizzadelivery.view.ActualizarPizzaActivity;
-import com.example.pizzadelivery.view.EliminarPizzaActivity;
+import com.example.pizzadelivery.view.ContainerActivity;
 import com.example.pizzadelivery.view.RegistrarPizzaActivity;
 
 public class CrudActivity extends AppCompatActivity {
@@ -29,8 +29,8 @@ public class CrudActivity extends AppCompatActivity {
                 myIntent = new Intent(CrudActivity.this, RegistrarPizzaActivity.class);break;
             case R.id.btnActualizar:
                 myIntent = new Intent(CrudActivity.this, ActualizarPizzaActivity.class);break;
-            case R.id.btnEliminar:
-                myIntent = new Intent(CrudActivity.this, EliminarPizzaActivity.class);break;
+            case R.id.btnListaPizzas:
+                myIntent = new Intent(CrudActivity.this, ContainerActivity.class);break;
         }
         if (myIntent!=null) {
             startActivity(myIntent);

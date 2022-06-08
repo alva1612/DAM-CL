@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:padding="@dimen/activity_vertical_margin"
     tools:context=".view.ActualizarPizzaActivity"
-    android:theme="@style/AppTheme.AppBarOverlay">
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +21,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.9"
-            android:hint="@string/id_de_pizza" />
+            android:hint="@string/id_de_pizza"
+            android:theme="@style/EditTextColor"/>
 
         <Button
             android:id="@+id/btnConsultar_action"
@@ -30,19 +31,22 @@
             android:layout_marginLeft="@dimen/layout_margin_left"
             android:layout_weight="0.1"
             android:onClick="onClick"
-            android:text="@string/btnConsultar_text" />
+            android:text="@string/btnConsultar_text"
+            android:theme="@style/RaisedButtonDark"/>
 
     </LinearLayout>
 
     <EditText
         android:id="@+id/consulta_nombre"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:theme="@style/EditTextColor"/>
 
     <EditText
         android:id="@+id/consulta_precio"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:theme="@style/EditTextColor"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -74,14 +78,16 @@
             android:layout_weight="0.5"
             android:text="@string/btnActualizar"
             android:id="@+id/btnActualizar_action"
-            android:onClick="onClick"/>
+            android:onClick="onClick"
+            android:theme="@style/RaisedButtonDark"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:text="@string/btnEliminar"
             android:id="@+id/btnEliminar_action"
-            android:onClick="onClick"/>
+            android:onClick="onClick"
+            android:theme="@style/RaisedButtonDark"/>
     </LinearLayout>
 
 </LinearLayout>

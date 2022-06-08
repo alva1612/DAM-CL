@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void goContainer(View view) {
-        Intent intent = new Intent(this, ContainerActivity.class);
+        Intent intent = new Intent(this, CrudActivity.class);
         startActivity(intent);
     }
 }
