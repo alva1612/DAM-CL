@@ -3,19 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android/StudioProjects/DAM-CL2/app/src/main/res/layout/activity_actualizar_pizza.xml" value="0.18958333333333333" />
-        <entry key="..\:/Android/StudioProjects/DAM-CL2/app/src/main/res/layout/activity_container.xml" value="0.19635416666666666" />
-        <entry key="..\:/Android/StudioProjects/DAM-CL2/app/src/main/res/layout/activity_create_account.xml" value="0.36666666666666664" />
-        <entry key="..\:/Android/StudioProjects/DAM-CL2/app/src/main/res/layout/activity_crud.xml" value="0.18" />
-        <entry key="..\:/Android/StudioProjects/DAM-CL2/app/src/main/res/layout/activity_eliminar_pizza.xml" value="0.19635416666666666" />
-        <entry key="..\:/Android/StudioProjects/DAM-CL2/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
-        <entry key="..\:/Android/StudioProjects/DAM-CL2/app/src/main/res/layout/activity_registrar_pizza.xml" value="0.18802083333333333" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.138" />
         <entry key="app/src/main/res/layout/actionbar_toolbar.xml" value="0.359375" />
         <entry key="app/src/main/res/layout/activity_container.xml" value="0.196875" />
         <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.359375" />
         <entry key="app/src/main/res/layout/activity_crud.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.18258426966292135" />
         <entry key="app/src/main/res/layout/activity_login2.xml" value="0.196875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.359375" />
         <entry key="app/src/main/res/layout/activity_registrar_pizza.xml" value="0.25" />
@@ -30,12 +23,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.19635416666666666" />
-      </ProjectState>
-    </option>
   </component>
 </project>
