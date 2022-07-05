@@ -49,11 +49,11 @@ public class PictureAdapterRecyclerView extends RecyclerView.Adapter<PictureAdap
         String pizzaName = pizzas.get(position).getPizzaName();
         holder.pizzaNameCard.setText(pizzaName);
 
-        String precio = pizzas.get(position).getPrecio();
-        holder.precioCard.setText(precio);
+        //String precio = pizzas.get(position).getPrecio();
+        //holder.precioCard.setText(precio);
 
-        int picture = pizzas.get(position).getPicture();
-        holder.pictureCard.setBackgroundResource(picture);
+        //int picture = pizzas.get(position).getPicture();
+        //holder.pictureCard.setBackgroundResource(picture);
     }
 
     @Override

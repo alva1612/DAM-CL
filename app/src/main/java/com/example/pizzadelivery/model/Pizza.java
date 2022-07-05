@@ -3,22 +3,27 @@ package com.example.pizzadelivery.model;
 import android.graphics.drawable.Drawable;
 
 public class Pizza {
-    private int picture;
+    private String id;
     private String pizzaName;
-    private String precio;
+    private Double precio;
+    private String imagen;
 
-    public Pizza(int picture, String pizzaName, String precio) {
-        this.picture = picture;
+    public Pizza() {
+    }
+
+    public Pizza(String id, String pizzaName, Double precio, String imagen) {
+        this.id = id;
         this.pizzaName = pizzaName;
         this.precio = precio;
+        this.imagen = imagen;
     }
 
-    public int getPicture() {
-        return picture;
+    public String getId() {
+        return id;
     }
 
-    public void setPicture(int picture) {
-        this.picture = picture;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getPizzaName() {
@@ -29,12 +34,20 @@ public class Pizza {
         this.pizzaName = pizzaName;
     }
 
-    public String getPrecio() {
+    public Double getPrecio() {
         return precio;
     }
 
-    public void setPrecio(String precio) {
+    public void setPrecio(Double precio) {
         this.precio = precio;
+    }
+
+    public String getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
     }
 }
 

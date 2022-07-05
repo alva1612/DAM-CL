@@ -75,8 +75,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/login_buttonText"
                     android:theme="@style/RaisedButtonDark"
-                    android:layout_marginVertical="@dimen/margin_login_button"
-                    android:onClick="goContainer"/>
+                    android:layout_marginVertical="@dimen/margin_login_button" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"

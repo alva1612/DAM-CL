@@ -13,4 +13,5 @@
     <string name="btnConsultar_text">Consultar</string>
     <string name="btnActualizar">Actualizar</string>
     <string name="btnEliminar">Eliminar</string>
+    <string name="urlImagen">Dirección de Imagen</string>
 </resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "218258371529",
+    "firebase_url": "https://pizzapatron-guillen-default-rtdb.firebaseio.com/",
+    "project_id": "pizzapatron-guillen",
+    "storage_bucket": "pizzapatron-guillen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218258371529:android:d1029516ee6d982625ae18",
+        "android_client_info": {
+          "package_name": "com.example.pizzadelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218258371529-qacevk1ijo08m3rolol0b0tvm5mun3ui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC4rA-RDMdWTozWqFsR7bLpL9c5GAEI5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218258371529-qacevk1ijo08m3rolol0b0tvm5mun3ui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
