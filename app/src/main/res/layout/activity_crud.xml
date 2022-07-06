@@ -33,5 +33,13 @@
             android:onClick="onClick"
             android:theme="@style/RaisedButtonDark"/>
 
+<!--        <Button
+            android:id="@+id/btnCLose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_login_button"
+            android:text="Cerrrar Sesión"
+            android:theme="@style/RaisedButtonDark"/>-->
+
     </LinearLayout>
 </LinearLayout>
